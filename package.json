@@ -1,9 +1,13 @@
 {
   "name": "@f2io/nest-amqp",
-  "version": "3.6.5-rc0",
+  "version": "3.6.5-rc2",
   "description": "AMQP 1.0 module for Nest framework",
   "author": "Supercharge",
   "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "amqp",
     "queue",

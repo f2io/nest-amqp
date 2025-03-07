@@ -398,7 +398,7 @@ export class QueueService {
 
   private encodeMessage(message: any, sendOptions?: SendOptions | string): string {
     const isMessageObject = typeof message === 'object';
-    const shouldByPassEncode = sendOptions && typeof sendOptions === 'object' && sendOptions.byPassStringifyEncode;
+    const shouldByPassEncode = sendOptions && typeof sendOptions === 'object' && sendOptions.opt_bypass_stringify;
     if (isMessageObject && shouldByPassEncode) {
       return message;
     }

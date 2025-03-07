@@ -100,5 +100,5 @@ export interface SendOptions extends Omit<Message, 'body'> {
    *
    * NOTE: Optional parameter to bypass stringify if message is object
    */
-  byPassStringifyEncode?: boolean;
+  opt_bypass_stringify?: boolean;
 }
